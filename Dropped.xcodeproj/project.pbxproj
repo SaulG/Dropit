@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C7F8AFD41B4B0C2300CC4216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8AFD31B4B0C2300CC4216 /* AppDelegate.swift */; };
-		C7F8AFD61B4B0C2300CC4216 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8AFD51B4B0C2300CC4216 /* ViewController.swift */; };
 		C7F8AFD91B4B0C2300CC4216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F8AFD71B4B0C2300CC4216 /* Main.storyboard */; };
 		C7F8AFDB1B4B0C2300CC4216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F8AFDA1B4B0C2300CC4216 /* Images.xcassets */; };
 		C7F8AFDE1B4B0C2300CC4216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F8AFDC1B4B0C2300CC4216 /* LaunchScreen.xib */; };
 		C7F8AFEA1B4B0C2300CC4216 /* DroppedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8AFE91B4B0C2300CC4216 /* DroppedTests.swift */; };
+		C7F8AFF41B4B0C5100CC4216 /* DropitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8AFF31B4B0C5100CC4216 /* DropitViewController.swift */; };
+		C7F8AFF61B4B1FFA00CC4216 /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8AFF51B4B1FFA00CC4216 /* DropitBehavior.swift */; };
+		C7F8AFF81B4B285200CC4216 /* BezierPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8AFF71B4B285200CC4216 /* BezierPathsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		C7F8AFCE1B4B0C2300CC4216 /* Dropped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8AFD21B4B0C2300CC4216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F8AFD31B4B0C2300CC4216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7F8AFD51B4B0C2300CC4216 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7F8AFD81B4B0C2300CC4216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7F8AFDA1B4B0C2300CC4216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7F8AFDD1B4B0C2300CC4216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7F8AFE31B4B0C2300CC4216 /* DroppedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroppedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8AFE81B4B0C2300CC4216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F8AFE91B4B0C2300CC4216 /* DroppedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppedTests.swift; sourceTree = "<group>"; };
+		C7F8AFF31B4B0C5100CC4216 /* DropitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitViewController.swift; sourceTree = "<group>"; };
+		C7F8AFF51B4B1FFA00CC4216 /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropitBehavior.swift; sourceTree = "<group>"; };
+		C7F8AFF71B4B285200CC4216 /* BezierPathsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,10 @@
 		C7F8AFD01B4B0C2300CC4216 /* Dropped */ = {
 			isa = PBXGroup;
 			children = (
-				C7F8AFD31B4B0C2300CC4216 /* AppDelegate.swift */,
-				C7F8AFD51B4B0C2300CC4216 /* ViewController.swift */,
 				C7F8AFD71B4B0C2300CC4216 /* Main.storyboard */,
-				C7F8AFDA1B4B0C2300CC4216 /* Images.xcassets */,
-				C7F8AFDC1B4B0C2300CC4216 /* LaunchScreen.xib */,
+				C7F8AFF51B4B1FFA00CC4216 /* DropitBehavior.swift */,
+				C7F8AFF71B4B285200CC4216 /* BezierPathsView.swift */,
+				C7F8AFF31B4B0C5100CC4216 /* DropitViewController.swift */,
 				C7F8AFD11B4B0C2300CC4216 /* Supporting Files */,
 			);
 			path = Dropped;
@@ -90,6 +93,9 @@
 		C7F8AFD11B4B0C2300CC4216 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C7F8AFDA1B4B0C2300CC4216 /* Images.xcassets */,
+				C7F8AFDC1B4B0C2300CC4216 /* LaunchScreen.xib */,
+				C7F8AFD31B4B0C2300CC4216 /* AppDelegate.swift */,
 				C7F8AFD21B4B0C2300CC4216 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7F8AFD61B4B0C2300CC4216 /* ViewController.swift in Sources */,
+				C7F8AFF81B4B285200CC4216 /* BezierPathsView.swift in Sources */,
 				C7F8AFD41B4B0C2300CC4216 /* AppDelegate.swift in Sources */,
+				C7F8AFF41B4B0C5100CC4216 /* DropitViewController.swift in Sources */,
+				C7F8AFF61B4B1FFA00CC4216 /* DropitBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
